@@ -18,21 +18,93 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
-.content-container {
-    min-width: 100%;
+h1, h2, h3 {
+    color: var(--dark-grayish-blue);
+}
+
+p {
+    color: var(--grayish-blue);
+    line-height: 1.6rem;
+    font-size: 1.009rem;
 }
 
 a {
     text-decoration: none;
 }
 
+button {
+    min-width: 100%;
+    font-size: 1.13rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    border: none;
+    padding: 1rem 0;
+    border-radius: 2rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
 img {
     width: 2%;
 }
 
-.header {
+.content-container {
+    min-width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+
+.content-container > * {
+    min-width: 100%;
+}
+
+.header {
+    background-image: url('./images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-container {
+    padding: 7rem 2rem 5rem 2rem;
+}
+
+.logo {
+    width: 8rem;
+}
+
+.header-info {
+    padding-top: 4rem;
+}
+
+.header-title {
+    color: var(--dark-grayish-blue)
+}
+
+.header-desc {
+    padding-top: 1rem;
+    color: var(--grayish-blue);
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.iOS-btn {
+    color: #fff;
+    background-color: var(--strong-cyan);
+    box-shadow: 0px 3px 2px 0px hsl(171, 68%, 35%);
+}
+
+.mac-btn {
+    color: #fff;
+    background-color: var(--light-blue);
+    box-shadow: 0px 3px 2px 0px hsl(233, 45%, 49%);
+    margin-top: 1.5rem;
+}
+
+
