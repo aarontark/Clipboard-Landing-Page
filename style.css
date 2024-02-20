@@ -108,6 +108,11 @@ img {
     margin-top: 1.5rem;
 }
 
+.title {
+    padding-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
 .snippets-section {
     padding: 5rem 0;
 }
@@ -143,4 +148,50 @@ img {
     font-weight: 600;
 }
 
+.access-section {
+    padding-top: 4rem;
+}
+
+
+.access-img-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.access-img {
+    width: 110%;
+}
+
+.supercharge-section {
+    padding-top: 6rem;
+}
+
+.supercharge-info-container {
+    padding-top: 5.5rem;
+}
+
+.supercharge-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.supercharge-img-container {
+    width: 14%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2.5rem;
+}
+
+.supercharge-img {
+    width: 100%;
+}
+
+.supercharge-info-title {
+    font-size: 1.5rem;
+    padding-bottom: 1.25rem; 
+}
 
