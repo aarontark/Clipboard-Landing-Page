@@ -89,7 +89,7 @@ img {
     color: var(--grayish-blue);
 }
 
-.header-btns {
+.btn-container {
     display: flex;
     flex-direction: column;
     padding-top: 3rem;
@@ -210,7 +210,18 @@ img {
 .ibm, .hp {
     width: 38%;
 }
+.hp-container {
+    padding-bottom: 3rem;
+}
 
 .vector {
     width: 35%;
+}
+
+.download-section {
+    padding-top: 6rem;
+}
+
+.download-desc {
+    padding: 0 .25rem;
 }
