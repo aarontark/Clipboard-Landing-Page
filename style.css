@@ -225,3 +225,56 @@ img {
 .download-desc {
     padding: 0 .25rem;
 }
+
+.bottom-btns {
+    padding-bottom: 11rem;
+}
+
+.footer {
+    background-color: hsl(201, 11%, 97%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img-container {
+    padding-top: 3.25rem;
+}
+
+.footer-img {
+    width: 45%;
+}
+
+.about-section, .about-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-section {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.about-container > * {
+    font-size: 1.125rem;
+    color: rgba(0, 0, 0, 0.781);
+    padding-bottom: 1.75rem;
+}
+
+.socials-section {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+    width: 50%;
+}
+
+.socials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials-container > * {
+    width: 100%;
+}
